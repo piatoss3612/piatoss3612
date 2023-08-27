@@ -1,7 +1,6 @@
 <div align="center">
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Hyohwak%20Lee&fontSize=80)
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppins&weight=600&pause=1000&color=3477F7&background=FFFFFF&center=true&vCenter=true&multiline=true&width=500&height=80&lines=Learn+to+walk+again;to+be+a+blockchain+core+developer)](https://git.io/typing-svg)
 
 ## 📚 Stack
 
