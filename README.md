@@ -10,9 +10,6 @@
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
 
-## 📈 Stats
-![piatoss3612's GitHub stats](https://github-readme-stats.vercel.app/api?username=piatoss3612&show_icons=true&theme=highcontrast)
-
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=piatoss3612&layout=compact)](https://github.com/piatoss3612/github-readme-stats)
 
 </div>
