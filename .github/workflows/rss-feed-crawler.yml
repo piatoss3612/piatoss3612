@@ -1,0 +1,32 @@
+name: Go RSS Feed Crawler
+
+on:
+    push:
+        branches: ["main"]
+    schedule:
+        - cron: '0 0 * * *'
+
+jobs:
+    update_readme:
+        runs-on: ubuntu-latest
+        steps:
+        - uses: actions/checkout@v3
+
+        - name: Set up Go
+          uses: actions/setup-go@v4
+          with:
+            go-version: '1.21'
+        
+        - name: Get dependencies
+          run: go get -v -t -d ./...
+        
+        - name: Run Go
+          run: go run main.go
+
+        - name: Push README.md
+          run: |
+            git config --local user.name 'Lee Hyohwak'
+            git config --global user.email 'crewe1746@naver.com'
+            git add README.md
+            git commit -m "Update README.md"
+            git push
