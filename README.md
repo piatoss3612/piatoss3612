@@ -16,8 +16,8 @@
 
 ## ☕ My recent posts
 
-1. [분산 데이터베이스와 분산 원장](https://piatoss3612.tistory.com/19) 2023-09-04
-2. [밑바닥부터 시작하는 비트코인 - 4장 직렬화](https://piatoss3612.tistory.com/18) 2023-09-02
-3. [밑바닥부터 시작하는 비트코인 - 3장 타원곡선 암호](https://piatoss3612.tistory.com/17) 2023-08-30
-4. [밑바닥부터 시작하는 비트코인 - 2장 타원곡선](https://piatoss3612.tistory.com/16) 2023-08-27
-5. [밑바닥부터 시작하는 비트코인 - 1장 유한체](https://piatoss3612.tistory.com/15) 2023-08-25
+1. [밑바닥부터 시작하는 비트코인 - 5장 트랜잭션](https://piatoss3612.tistory.com/20) 2023-09-05
+2. [분산 데이터베이스와 분산 원장](https://piatoss3612.tistory.com/19) 2023-09-04
+3. [밑바닥부터 시작하는 비트코인 - 4장 직렬화](https://piatoss3612.tistory.com/18) 2023-09-02
+4. [밑바닥부터 시작하는 비트코인 - 3장 타원곡선 암호](https://piatoss3612.tistory.com/17) 2023-08-30
+5. [밑바닥부터 시작하는 비트코인 - 2장 타원곡선](https://piatoss3612.tistory.com/16) 2023-08-27
