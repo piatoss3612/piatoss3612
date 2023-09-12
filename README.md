@@ -16,8 +16,8 @@
 
 ## ☕ My recent posts
 
-1. [깃허브 프로필 최신 블로그 글 목록 자동으로 업데이트하기](https://piatoss3612.tistory.com/21) 2023-09-06
-2. [밑바닥부터 시작하는 비트코인 - 5장 트랜잭션](https://piatoss3612.tistory.com/20) 2023-09-05
-3. [분산 데이터베이스와 분산 원장](https://piatoss3612.tistory.com/19) 2023-09-04
-4. [밑바닥부터 시작하는 비트코인 - 4장 직렬화](https://piatoss3612.tistory.com/18) 2023-09-02
-5. [밑바닥부터 시작하는 비트코인 - 3장 타원곡선 암호](https://piatoss3612.tistory.com/17) 2023-08-30
+1. [밑바닥부터 시작하는 비트코인 - 6장 스크립트](https://piatoss3612.tistory.com/22) 2023-09-11
+2. [깃허브 프로필 최신 블로그 글 목록 자동으로 업데이트하기](https://piatoss3612.tistory.com/21) 2023-09-06
+3. [밑바닥부터 시작하는 비트코인 - 5장 트랜잭션](https://piatoss3612.tistory.com/20) 2023-09-05
+4. [분산 데이터베이스와 분산 원장](https://piatoss3612.tistory.com/19) 2023-09-04
+5. [밑바닥부터 시작하는 비트코인 - 4장 직렬화](https://piatoss3612.tistory.com/18) 2023-09-02
