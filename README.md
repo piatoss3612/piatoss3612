@@ -16,8 +16,8 @@
 
 ## ☕ My recent posts
 
-1. [[Go] 식사하는 철학자들 문제](https://piatoss3612.tistory.com/27) 2023-09-29
-2. [밑바닥부터 시작하는 비트코인 - 9장 블록](https://piatoss3612.tistory.com/26) 2023-09-21
-3. [밑바닥부터 시작하는 비트코인 - 8장 p2sh 스크립트](https://piatoss3612.tistory.com/25) 2023-09-20
-4. [밑바닥부터 시작하는 비트코인 - 중간정리](https://piatoss3612.tistory.com/24) 2023-09-17
-5. [밑바닥부터 시작하는 비트코인 - 7장 트랜잭션 검증과 생성](https://piatoss3612.tistory.com/23) 2023-09-16
+1. [[Go] 잠자는 이발사 문제](https://piatoss3612.tistory.com/28) 2023-09-30
+2. [[Go] 식사하는 철학자들 문제](https://piatoss3612.tistory.com/27) 2023-09-29
+3. [밑바닥부터 시작하는 비트코인 - 9장 블록](https://piatoss3612.tistory.com/26) 2023-09-21
+4. [밑바닥부터 시작하는 비트코인 - 8장 p2sh 스크립트](https://piatoss3612.tistory.com/25) 2023-09-20
+5. [밑바닥부터 시작하는 비트코인 - 중간정리](https://piatoss3612.tistory.com/24) 2023-09-17
