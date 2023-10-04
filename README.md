@@ -16,8 +16,8 @@
 
 ## ☕ My recent posts
 
-1. [[Go] SOLID in Go - SOLID란?](https://piatoss3612.tistory.com/30) 2023-10-02
-2. [[Go] 문자열과 바이트 슬라이스를 상호 변환하는 여러가지 방법](https://piatoss3612.tistory.com/29) 2023-10-01
-3. [[Go] 잠자는 이발사 문제](https://piatoss3612.tistory.com/28) 2023-09-30
-4. [[Go] 식사하는 철학자들 문제](https://piatoss3612.tistory.com/27) 2023-09-29
-5. [밑바닥부터 시작하는 비트코인 - 9장 블록](https://piatoss3612.tistory.com/26) 2023-09-21
+1. [[Solidity] 재진입 공격 (Reentrancy Attack)](https://piatoss3612.tistory.com/32) 2023-10-03
+2. [[Go] SOLID in Go - 객체지향 in Go 1](https://piatoss3612.tistory.com/31) 2023-10-03
+3. [[Go] SOLID in Go - SOLID란?](https://piatoss3612.tistory.com/30) 2023-10-02
+4. [[Go] 문자열과 바이트 슬라이스를 상호 변환하는 여러가지 방법](https://piatoss3612.tistory.com/29) 2023-10-01
+5. [[Go] 잠자는 이발사 문제](https://piatoss3612.tistory.com/28) 2023-09-30
