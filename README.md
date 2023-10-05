@@ -16,8 +16,8 @@
 
 ## ☕ My recent posts
 
-1. [[Solidity] 재진입 공격 (Reentrancy Attack)](https://piatoss3612.tistory.com/32) 2023-10-03
-2. [[Go] SOLID in Go - 객체지향 in Go 1](https://piatoss3612.tistory.com/31) 2023-10-03
-3. [[Go] SOLID in Go - SOLID란?](https://piatoss3612.tistory.com/30) 2023-10-02
-4. [[Go] 문자열과 바이트 슬라이스를 상호 변환하는 여러가지 방법](https://piatoss3612.tistory.com/29) 2023-10-01
-5. [[Go] 잠자는 이발사 문제](https://piatoss3612.tistory.com/28) 2023-09-30
+1. [[Go] SOLID in Go - 인터페이스](https://piatoss3612.tistory.com/34) 2023-10-04
+2. [[Solidity] 재진입 공격 예방 기법](https://piatoss3612.tistory.com/33) 2023-10-04
+3. [[Solidity] 재진입 공격 (Reentrancy Attack)](https://piatoss3612.tistory.com/32) 2023-10-03
+4. [[Go] SOLID in Go - 구조체와 메서드](https://piatoss3612.tistory.com/31) 2023-10-03
+5. [[Go] SOLID in Go - SOLID란?](https://piatoss3612.tistory.com/30) 2023-10-02
