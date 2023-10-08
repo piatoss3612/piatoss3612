@@ -16,8 +16,8 @@
 
 ## ☕ My recent posts
 
-1. [[백준 / Rust] 6220번: Making Change](https://piatoss3612.tistory.com/37) 2023-10-06
-2. [[GO] 컨텍스트(Context)](https://piatoss3612.tistory.com/36) 2023-10-05
-3. [[LeetCode / Go] 2571. Minimum Operations to Reduce an Integer to 0](https://piatoss3612.tistory.com/35) 2023-10-05
-4. [[Go] SOLID in Go - 인터페이스](https://piatoss3612.tistory.com/34) 2023-10-04
-5. [[Solidity] 재진입 공격 예방 기법](https://piatoss3612.tistory.com/33) 2023-10-04
+1. [[Go] 클라우드 디자인 패턴 - 서킷 브레이커](https://piatoss3612.tistory.com/38) 2023-10-07
+2. [[백준 / Rust] 6220번: Making Change](https://piatoss3612.tistory.com/37) 2023-10-06
+3. [[Go] 컨텍스트(Context)](https://piatoss3612.tistory.com/36) 2023-10-05
+4. [[LeetCode / Go] 2571. Minimum Operations to Reduce an Integer to 0](https://piatoss3612.tistory.com/35) 2023-10-05
+5. [[Go] SOLID in Go - 인터페이스](https://piatoss3612.tistory.com/34) 2023-10-04
