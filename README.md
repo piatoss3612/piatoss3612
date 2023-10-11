@@ -16,8 +16,8 @@
 
 ## ☕ My recent posts
 
-1. [[Go] SOLID in Go - 컴포지션](https://piatoss3612.tistory.com/40) 2023-10-09
-2. [9월의 회고 Anti-Hero](https://piatoss3612.tistory.com/39) 2023-10-08
-3. [[Go] 클라우드 디자인 패턴 - 서킷 브레이커](https://piatoss3612.tistory.com/38) 2023-10-07
-4. [[백준 / Rust] 6220번: Making Change](https://piatoss3612.tistory.com/37) 2023-10-06
-5. [[Go] 컨텍스트(Context)](https://piatoss3612.tistory.com/36) 2023-10-05
+1. [[Go] SOLID in Go - 패키지](https://piatoss3612.tistory.com/41) 2023-10-10
+2. [[Go] SOLID in Go - 컴포지션](https://piatoss3612.tistory.com/40) 2023-10-09
+3. [9월의 회고 Anti-Hero](https://piatoss3612.tistory.com/39) 2023-10-08
+4. [[Go] 클라우드 디자인 패턴 - 서킷 브레이커](https://piatoss3612.tistory.com/38) 2023-10-07
+5. [[백준 / Rust] 6220번: Making Change](https://piatoss3612.tistory.com/37) 2023-10-06
