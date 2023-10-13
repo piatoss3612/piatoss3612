@@ -16,8 +16,8 @@
 
 ## ☕ My recent posts
 
-1. [[Go] gRPC 파헤치기 - gRPC란?](https://piatoss3612.tistory.com/44) 2023-10-11
-2. [[Go] SOLID in Go - 단일 책임 원칙](https://piatoss3612.tistory.com/43) 2023-10-11
-3. [[백준 / Go] 13909번: 창문 닫기](https://piatoss3612.tistory.com/42) 2023-10-11
-4. [[Go] SOLID in Go - 패키지](https://piatoss3612.tistory.com/41) 2023-10-10
-5. [[Go] SOLID in Go - 컴포지션](https://piatoss3612.tistory.com/40) 2023-10-09
+1. [[Go] gRPC 파헤치기 - 프로토콜 버퍼 (Protocol Buffers)](https://piatoss3612.tistory.com/47) 2023-10-12
+2. [[Go] SOLID in Go - 개방 폐쇄 원칙](https://piatoss3612.tistory.com/46) 2023-10-12
+3. [[백준 / Go] 14490번: 백대열](https://piatoss3612.tistory.com/45) 2023-10-12
+4. [[Go] gRPC 파헤치기 - gRPC란?](https://piatoss3612.tistory.com/44) 2023-10-11
+5. [[Go] SOLID in Go - 단일 책임 원칙](https://piatoss3612.tistory.com/43) 2023-10-11
