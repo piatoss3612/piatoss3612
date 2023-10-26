@@ -1,8 +1,12 @@
-<div align="center">
+## 👋 Hi, I'm Hyohwak Lee
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Hyohwak%20Lee&fontSize=80)
+<pre>
+I'm a software engineer interested in blockchain and backend development.
+My favorite language is Go and I'm currently learning Rust. Maybe I'll be a Rustacean soon 🦀
+I'd like to contribute to the world with my skills. That's why I'm here.
+</pre>
 
-## 📚 Stack
+## 📚 Languages and Tools
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
@@ -12,7 +16,5 @@
 ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=piatoss3612&layout=compact)](https://github.com/piatoss3612/github-readme-stats)
-
-</div>
 
 {{RECENT_POSTS}}
