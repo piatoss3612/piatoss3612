@@ -20,7 +20,7 @@ I'd like to contribute to the world with my skills. That's why I'm here.
 ## ☕ My recent posts
 
 1. [[백준 / Rust] 17103번: 골드바흐 파티션](https://piatoss3612.tistory.com/62) 2023-10-26
-2. [[Go] 우아하게 종료하기 (Graceful shutdown)](https://piatoss3612.tistory.com/60) 2023-10-24
-3. [[Go] SOLID in Go - 의존 관계 역전 원칙](https://piatoss3612.tistory.com/59) 2023-10-23
-4. [[백준 / Rust] 3474번: 교수가 된 현우](https://piatoss3612.tistory.com/58) 2023-10-21
-5. [[백준 / Go] 21920번: 서로소 평균](https://piatoss3612.tistory.com/56) 2023-10-20
+2. [[Go] Vault를 사용해 시크릿 저장하고 불러오기 기초](https://piatoss3612.tistory.com/61) 2023-10-25
+3. [[Go] 우아하게 종료하기 (Graceful shutdown)](https://piatoss3612.tistory.com/60) 2023-10-24
+4. [[Go] SOLID in Go - 의존 관계 역전 원칙](https://piatoss3612.tistory.com/59) 2023-10-23
+5. [Foundry 설치](https://piatoss3612.tistory.com/57) 2023-10-22
