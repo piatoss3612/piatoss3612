@@ -19,8 +19,8 @@ I'd like to contribute to the world with my skills. That's why I'm here.
 
 ## ☕ My recent posts
 
-1. [[백준 / Go] 24040번: 예쁜 케이크](https://piatoss3612.tistory.com/65) 2023-10-29
-2. [Foundry 프로젝트 살펴보기](https://piatoss3612.tistory.com/63) 2023-10-27
-3. [[백준 / Rust] 17103번: 골드바흐 파티션](https://piatoss3612.tistory.com/62) 2023-10-26
-4. [[Go] Vault를 사용해 시크릿 저장하고 불러오기 기초](https://piatoss3612.tistory.com/61) 2023-10-25
-5. [[Go] 우아하게 종료하기 (Graceful shutdown)](https://piatoss3612.tistory.com/60) 2023-10-24
+1. [[백준 / Go] 1124번: 언더프라임](https://piatoss3612.tistory.com/66) 2023-10-30
+2. [[백준 / Go] 24040번: 예쁜 케이크](https://piatoss3612.tistory.com/65) 2023-10-29
+3. [Foundry 테스트 작성하기](https://piatoss3612.tistory.com/64) 2023-10-28
+4. [Foundry 프로젝트 살펴보기](https://piatoss3612.tistory.com/63) 2023-10-27
+5. [[백준 / Rust] 17103번: 골드바흐 파티션](https://piatoss3612.tistory.com/62) 2023-10-26
