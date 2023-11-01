@@ -19,8 +19,8 @@ I'd like to contribute to the world with my skills. That's why I'm here.
 
 ## ☕ My recent posts
 
-1. [[백준 / Go] 1124번: 언더프라임](https://piatoss3612.tistory.com/66) 2023-10-30
-2. [[백준 / Go] 24040번: 예쁜 케이크](https://piatoss3612.tistory.com/65) 2023-10-29
-3. [Foundry 테스트 작성하기](https://piatoss3612.tistory.com/64) 2023-10-28
-4. [Foundry 프로젝트 살펴보기](https://piatoss3612.tistory.com/63) 2023-10-27
-5. [[백준 / Rust] 17103번: 골드바흐 파티션](https://piatoss3612.tistory.com/62) 2023-10-26
+1. [Chainlink - Data Feeds](https://piatoss3612.tistory.com/67) 2023-10-31
+2. [[백준 / Go] 1124번: 언더프라임](https://piatoss3612.tistory.com/66) 2023-10-30
+3. [[백준 / Go] 24040번: 예쁜 케이크](https://piatoss3612.tistory.com/65) 2023-10-29
+4. [Foundry 테스트 작성하기](https://piatoss3612.tistory.com/64) 2023-10-28
+5. [Foundry 프로젝트 살펴보기](https://piatoss3612.tistory.com/63) 2023-10-27
