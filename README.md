@@ -19,8 +19,8 @@ I'd like to contribute to the world with my skills. That's why I'm here.
 
 ## ☕ My recent posts
 
-1. [[Solitidy+Go] geth로 스마트 컨트랙트 배포하기 - 5. 이벤트 구독](https://piatoss3612.tistory.com/73) 2023-12-14
-2. [[Solitidy+Go] geth로 스마트 컨트랙트 배포하기 - 4. 배포된 스마트 컨트랙트와 상호작용](https://piatoss3612.tistory.com/72) 2023-12-14
-3. [[Solitidy+Go] geth로 스마트 컨트랙트 배포하기 - 3. 생성된 Go 코드로 스마트 컨트랙트 배포](https://piatoss3612.tistory.com/71) 2023-12-14
-4. [[Solitidy+Go] geth로 스마트 컨트랙트 배포하기 - 2. 스마트 컨트랙트로 Go 코드 생성](https://piatoss3612.tistory.com/70) 2023-12-13
-5. [[Solitidy+Go] geth로 스마트 컨트랙트 배포하기 - 1. 초기 구성](https://piatoss3612.tistory.com/69) 2023-12-13
+1. [[Solitidy+Go] geth로 스마트 컨트랙트 배포하기 - 6. 메타데이터를 사용한 standard json input 생성](https://piatoss3612.tistory.com/74) 2023-12-15
+2. [[Solitidy+Go] geth로 스마트 컨트랙트 배포하기 - 5. 이벤트 구독](https://piatoss3612.tistory.com/73) 2023-12-14
+3. [[Solitidy+Go] geth로 스마트 컨트랙트 배포하기 - 4. 배포된 스마트 컨트랙트와 상호작용](https://piatoss3612.tistory.com/72) 2023-12-14
+4. [[Solitidy+Go] geth로 스마트 컨트랙트 배포하기 - 3. 생성된 Go 코드로 스마트 컨트랙트 배포](https://piatoss3612.tistory.com/71) 2023-12-14
+5. [[Solitidy+Go] geth로 스마트 컨트랙트 배포하기 - 2. 스마트 컨트랙트로 Go 코드 생성](https://piatoss3612.tistory.com/70) 2023-12-13
