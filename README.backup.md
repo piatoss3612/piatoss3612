@@ -1,7 +1,7 @@
 ## 합류하라 🤝
 
 <div align="center">
-    <img src="https://github.com/piatoss3612/piatoss3612/tree/main/assets/main.png" alt="합류하라" width="30%" height="auto">
+    <img src="https://github.com/piatoss3612/piatoss3612/blob/main/assets/main.png" alt="합류하라" width="30%" height="auto">
 </div>
 
 ## 📚 Languages and Tools
