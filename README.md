@@ -1,7 +1,8 @@
 ## 합류하라 🤝
 
 <div align="center">
-    <img src="https://github.com/piatoss3612/piatoss3612/blob/main/assets/main.png" alt="합류하라" width="30%" height="auto">
+    <img src="https://github.com/piatoss3612/piatoss3612/blob/main/assets/go.png" alt="합류하라-go" width="40%" height="auto">
+    <img src="https://github.com/piatoss3612/piatoss3612/blob/main/assets/rust.png" alt="합류하라-rust" width="40%" height="auto">
 </div>
 
 ## 📚 Languages and Tools
