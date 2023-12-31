@@ -18,8 +18,8 @@
 
 ## ☕ My recent posts
 
-1. [[Rust] stylus를 사용해 Rust로 Arbitrum stylus testnet에 스마트 컨트랙트 배포하기](https://piatoss3612.tistory.com/85) 2023-12-28
-2. [WSL에서 Terraform 사용하기](https://piatoss3612.tistory.com/84) 2023-12-27
-3. [[Rust] gRPC 서버 Docker 이미지 빌드 및 docker compose 네트워크 에러 해결](https://piatoss3612.tistory.com/83) 2023-12-27
-4. [[Rust] tonic-build를 사용해 ProtoBuf 파일 컴파일하기](https://piatoss3612.tistory.com/82) 2023-12-26
-5. [WSL에서 Github 사용하기](https://piatoss3612.tistory.com/81) 2023-12-26
+1. [Zola를 사용해 나만의 블로그/포트폴리오 만들기](https://piatoss3612.tistory.com/86) 2023-12-30
+2. [[Rust] stylus를 사용해 Rust로 Arbitrum stylus testnet에 스마트 컨트랙트 배포하기](https://piatoss3612.tistory.com/85) 2023-12-28
+3. [WSL에서 Terraform 사용하기](https://piatoss3612.tistory.com/84) 2023-12-27
+4. [[Rust] gRPC 서버 Docker 이미지 빌드 및 docker compose 네트워크 에러 해결](https://piatoss3612.tistory.com/83) 2023-12-27
+5. [[Rust] tonic-build를 사용해 ProtoBuf 파일 컴파일하기](https://piatoss3612.tistory.com/82) 2023-12-26
