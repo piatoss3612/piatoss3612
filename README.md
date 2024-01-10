@@ -18,8 +18,8 @@
 
 ## ☕ My recent posts
 
-1. [[Ethernaut] 4. Telephone](https://piatoss3612.tistory.com/93) 2024-01-08
-2. [밑바닥부터 시작하는 비트코인 - 10장 네트워킹](https://piatoss3612.tistory.com/92) 2024-01-08
-3. [[Ethernaut] 3. CoinFlip](https://piatoss3612.tistory.com/91) 2024-01-07
-4. [[Ethernaut] 2. Fallout](https://piatoss3612.tistory.com/90) 2024-01-05
-5. [[Ethernaut] 1. Fallback](https://piatoss3612.tistory.com/89) 2024-01-04
+1. [밑바닥부터 시작하는 비트코인 - 11장 단순 지급 검증](https://piatoss3612.tistory.com/94) 2024-01-09
+2. [[Ethernaut] 4. Telephone](https://piatoss3612.tistory.com/93) 2024-01-08
+3. [밑바닥부터 시작하는 비트코인 - 10장 네트워킹](https://piatoss3612.tistory.com/92) 2024-01-08
+4. [[Ethernaut] 3. CoinFlip](https://piatoss3612.tistory.com/91) 2024-01-07
+5. [[Ethernaut] 2. Fallout](https://piatoss3612.tistory.com/90) 2024-01-05
