@@ -18,8 +18,8 @@
 
 ## ☕ My recent posts
 
-1. [[Ethernaut] 6. Delegation](https://piatoss3612.tistory.com/99) 2024-01-16
-2. [[Ethernaut] 5. Token](https://piatoss3612.tistory.com/98) 2024-01-15
-3. [밑바닥부터 시작하는 비트코인 - 13장 세그윗 2](https://piatoss3612.tistory.com/97) 2024-01-14
-4. [밑바닥부터 시작하는 비트코인 - 13장 세그윗 1](https://piatoss3612.tistory.com/96) 2024-01-13
-5. [밑바닥부터 시작하는 비트코인 - 12장 블룸 필터](https://piatoss3612.tistory.com/95) 2024-01-10
+1. [밑바닥부터 시작하는 비트코인 - 외전1 네트워크 요청 및 응답 개선](https://piatoss3612.tistory.com/101) 2024-01-17
+2. [[Ethernaut] 7. Force](https://piatoss3612.tistory.com/100) 2024-01-17
+3. [[Ethernaut] 6. Delegation](https://piatoss3612.tistory.com/99) 2024-01-16
+4. [[Ethernaut] 5. Token](https://piatoss3612.tistory.com/98) 2024-01-15
+5. [밑바닥부터 시작하는 비트코인 - 13장 세그윗 2](https://piatoss3612.tistory.com/97) 2024-01-14
