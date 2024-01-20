@@ -18,8 +18,8 @@
 
 ## ☕ My recent posts
 
-1. [[Ethernaut] 8. Vault](https://piatoss3612.tistory.com/102) 2024-01-18
-2. [밑바닥부터 시작하는 비트코인 - 외전1 네트워크 요청 및 응답 개선](https://piatoss3612.tistory.com/101) 2024-01-17
-3. [[Ethernaut] 7. Force](https://piatoss3612.tistory.com/100) 2024-01-17
-4. [[Ethernaut] 6. Delegation](https://piatoss3612.tistory.com/99) 2024-01-16
-5. [[Ethernaut] 5. Token](https://piatoss3612.tistory.com/98) 2024-01-15
+1. [밑바닥부터 시작하는 비트코인 - 외전2 비트코인 백서 의식의 흐름대로 읽기](https://piatoss3612.tistory.com/103) 2024-01-18
+2. [[Ethernaut] 8. Vault](https://piatoss3612.tistory.com/102) 2024-01-18
+3. [밑바닥부터 시작하는 비트코인 - 외전1 네트워크 요청 및 응답 개선](https://piatoss3612.tistory.com/101) 2024-01-17
+4. [[Ethernaut] 7. Force](https://piatoss3612.tistory.com/100) 2024-01-17
+5. [[Ethernaut] 6. Delegation](https://piatoss3612.tistory.com/99) 2024-01-16
