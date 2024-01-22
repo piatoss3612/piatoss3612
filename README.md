@@ -18,8 +18,8 @@
 
 ## ☕ My recent posts
 
-1. [[Ethernaut] 9. King](https://piatoss3612.tistory.com/104) 2024-01-20
-2. [밑바닥부터 시작하는 비트코인 - 외전2 비트코인 백서 의식의 흐름대로 읽기](https://piatoss3612.tistory.com/103) 2024-01-18
-3. [[Ethernaut] 8. Vault](https://piatoss3612.tistory.com/102) 2024-01-18
-4. [밑바닥부터 시작하는 비트코인 - 외전1 네트워크 요청 및 응답 개선](https://piatoss3612.tistory.com/101) 2024-01-17
-5. [[Ethernaut] 7. Force](https://piatoss3612.tistory.com/100) 2024-01-17
+1. [mdBook을 사용해 markdown 형식의 정적 웹사이트 만들기](https://piatoss3612.tistory.com/105) 2024-01-21
+2. [[Ethernaut] 9. King](https://piatoss3612.tistory.com/104) 2024-01-20
+3. [밑바닥부터 시작하는 비트코인 - 외전2 비트코인 백서 의식의 흐름대로 읽기](https://piatoss3612.tistory.com/103) 2024-01-18
+4. [[Ethernaut] 8. Vault](https://piatoss3612.tistory.com/102) 2024-01-18
+5. [밑바닥부터 시작하는 비트코인 - 외전1 네트워크 요청 및 응답 개선](https://piatoss3612.tistory.com/101) 2024-01-17
