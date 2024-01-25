@@ -18,8 +18,8 @@
 
 ## ☕ My recent posts
 
-1. [[Ethernaut] 11. Elevator](https://piatoss3612.tistory.com/107) 2024-01-23
-2. [[Ethernaut] 10. Re-entrancy](https://piatoss3612.tistory.com/106) 2024-01-22
-3. [mdBook을 사용해 markdown 형식의 정적 웹사이트 만들기](https://piatoss3612.tistory.com/105) 2024-01-21
-4. [[Ethernaut] 9. King](https://piatoss3612.tistory.com/104) 2024-01-20
-5. [밑바닥부터 시작하는 비트코인 - 외전2 비트코인 백서 의식의 흐름대로 읽기](https://piatoss3612.tistory.com/103) 2024-01-18
+1. [[Ethernaut] 12. Privacy](https://piatoss3612.tistory.com/108) 2024-01-24
+2. [[Ethernaut] 11. Elevator](https://piatoss3612.tistory.com/107) 2024-01-23
+3. [[Ethernaut] 10. Re-entrancy](https://piatoss3612.tistory.com/106) 2024-01-22
+4. [mdBook을 사용해 markdown 형식의 정적 웹사이트 만들기](https://piatoss3612.tistory.com/105) 2024-01-21
+5. [[Ethernaut] 9. King](https://piatoss3612.tistory.com/104) 2024-01-20
