@@ -18,8 +18,8 @@
 
 ## ☕ My recent posts
 
-1. [RLP (Recursive Length Prefix) 직렬화 이해하기](https://piatoss3612.tistory.com/110) 2024-01-25
-2. [[Ethernaut] 13. Gatekeeper One](https://piatoss3612.tistory.com/109) 2024-01-25
-3. [[Ethernaut] 12. Privacy](https://piatoss3612.tistory.com/108) 2024-01-24
-4. [[Ethernaut] 11. Elevator](https://piatoss3612.tistory.com/107) 2024-01-23
-5. [[Ethernaut] 10. Re-entrancy](https://piatoss3612.tistory.com/106) 2024-01-22
+1. [[Ethernaut] 14. Gatekeeper Two](https://piatoss3612.tistory.com/111) 2024-01-27
+2. [RLP (Recursive Length Prefix) 직렬화 이해하기](https://piatoss3612.tistory.com/110) 2024-01-25
+3. [[Ethernaut] 13. Gatekeeper One](https://piatoss3612.tistory.com/109) 2024-01-25
+4. [[Ethernaut] 12. Privacy](https://piatoss3612.tistory.com/108) 2024-01-24
+5. [[Ethernaut] 11. Elevator](https://piatoss3612.tistory.com/107) 2024-01-23
