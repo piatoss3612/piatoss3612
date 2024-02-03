@@ -18,8 +18,8 @@
 
 ## ☕ My recent posts
 
-1. [[Ethernaut] 20. Denial](https://piatoss3612.tistory.com/116) 2024-02-01
-2. [[Uniswap] V2 Core - UniswapV2Pair](https://piatoss3612.tistory.com/120) 2024-01-31
-3. [[Uniswap] V2 Core - UniswapV2Factory](https://piatoss3612.tistory.com/119) 2024-01-31
-4. [[Ethernaut] 19. Alien Codex](https://piatoss3612.tistory.com/115) 2024-01-31
-5. [[Uniswap] V2 Core - UniswapV2ERC20](https://piatoss3612.tistory.com/118) 2024-01-30
+1. [[Ethernaut] 21. Shop](https://piatoss3612.tistory.com/117) 2024-02-02
+2. [[Ethernaut] 20. Denial](https://piatoss3612.tistory.com/116) 2024-02-01
+3. [[Uniswap] V2 Core - UniswapV2Pair](https://piatoss3612.tistory.com/120) 2024-01-31
+4. [[Uniswap] V2 Core - UniswapV2Factory](https://piatoss3612.tistory.com/119) 2024-01-31
+5. [[Ethernaut] 19. Alien Codex](https://piatoss3612.tistory.com/115) 2024-01-31
