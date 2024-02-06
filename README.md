@@ -18,8 +18,8 @@
 
 ## ☕ My recent posts
 
-1. [[Ethernaut] 23. Dex Two](https://piatoss3612.tistory.com/122) 2024-02-04
-2. [[Ethernaut] 22. Dex](https://piatoss3612.tistory.com/121) 2024-02-03
-3. [[Ethernaut] 21. Shop](https://piatoss3612.tistory.com/117) 2024-02-02
-4. [[Ethernaut] 20. Denial](https://piatoss3612.tistory.com/116) 2024-02-01
-5. [[Uniswap] V2 Core - UniswapV2Pair](https://piatoss3612.tistory.com/120) 2024-01-31
+1. [[Uniswap] V2 Core 보충 자료 - 백서 읽기](https://piatoss3612.tistory.com/125) 2024-02-05
+2. [[Ethernaut] 27. Good Samaritan](https://piatoss3612.tistory.com/123) 2024-02-05
+3. [[Ethernaut] 23. Dex Two](https://piatoss3612.tistory.com/122) 2024-02-04
+4. [[Ethernaut] 22. Dex](https://piatoss3612.tistory.com/121) 2024-02-03
+5. [[Ethernaut] 21. Shop](https://piatoss3612.tistory.com/117) 2024-02-02
