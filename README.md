@@ -18,8 +18,8 @@
 
 ## ☕ My recent posts
 
-1. [[Ethernaut] 18. Switch](https://piatoss3612.tistory.com/131) 2024-02-15
-2. [Solidity 런타임 바이트코드 분해하기](https://piatoss3612.tistory.com/130) 2024-02-13
-3. [Hyperlane V3를 사용한 Crosschain NFT](https://piatoss3612.tistory.com/129) 2024-02-12
-4. [Go 1.22.0 업데이트 살펴보기](https://piatoss3612.tistory.com/128) 2024-02-08
-5. [[Ethernaut] 29. Switch](https://piatoss3612.tistory.com/127) 2024-02-07
+1. [Inline Assembly를 사용해 ERC-20 구현하기 & Inline Assembly 활용하기](https://piatoss3612.tistory.com/132) 2024-02-17
+2. [[Ethernaut] 18. Switch](https://piatoss3612.tistory.com/131) 2024-02-15
+3. [Solidity 런타임 바이트코드 분해하기](https://piatoss3612.tistory.com/130) 2024-02-13
+4. [Hyperlane V3를 사용한 Crosschain NFT](https://piatoss3612.tistory.com/129) 2024-02-12
+5. [Go 1.22.0 업데이트 살펴보기](https://piatoss3612.tistory.com/128) 2024-02-08
