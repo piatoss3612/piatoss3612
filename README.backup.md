@@ -1,19 +1,55 @@
-## 합류하라 🤝
+## 🐹 About me
 
-<div align="center">
-    <img src="https://github.com/piatoss3612/piatoss3612/blob/main/assets/go.png" alt="합류하라-go" width="40%" height="auto">
-    <img src="https://github.com/piatoss3612/piatoss3612/blob/main/assets/rust.png" alt="합류하라-rust" width="40%" height="auto">
-</div>
+```go
+package piatoss
 
-## 📚 Languages and Tools
+func Name() string {
+    return "Hyohwak Lee"
+}
 
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Solidity](https://img.shields.io/badge/solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
+func Skills() []string {
+    return []string{
+        "Go", "Solidity", "Foundry",
+        "Docker", "Terraform", "Node.js",
+    }
+}
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=piatoss3612&layout=compact)](https://github.com/piatoss3612/github-readme-stats)
+func Goals() []string {
+    return []string{
+        "Becoming a professional blockchain developer",
+        "Melting the blockchain into everyday life",
+        "Making the world a better place",
+    }
+}
+
+func Interests() []string {
+    return []string{
+        "Blockchain Core",
+        "Interoperability",
+        "Stablecoin",
+        "Cloud Native",
+    }
+}
+
+func Preferences() map[string]any {
+    return map[string]any{
+        "OS": "Windows",
+        "Editor": "VSCode",
+        "Language": "Go",
+        "How To Learn": "Learn by building",
+        "Music": []string{"Rock", "Jazz"},
+        "Game": []string{"Yu-Gi-Oh! Master Duel", "Souls-like Games"},
+    }
+}
+
+func PointOfContact() map[string]string {
+    return map[string]string{
+        "Email": "crewe1746@hanyang.ac.kr",
+        "LinkedIn": "https://www.linkedin.com/in/hyohwak-lee/",
+        "X": "https://twitter.com/piatoss3612",
+        "Discord": "piatoss3612",
+    }
+}
+```
 
 {{RECENT_POSTS}}
