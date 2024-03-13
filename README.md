@@ -1,25 +1,45 @@
-## 합류하라 🤝
+## 🐹 About me
 
-<div align="center">
-    <img src="https://github.com/piatoss3612/piatoss3612/blob/main/assets/go.png" alt="합류하라-go" width="40%" height="auto">
-    <img src="https://github.com/piatoss3612/piatoss3612/blob/main/assets/rust.png" alt="합류하라-rust" width="40%" height="auto">
-</div>
+```go
+package piatoss
 
-## 📚 Languages and Tools
+func Name() string {
+    return "Hyohwak Lee"
+}
 
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Solidity](https://img.shields.io/badge/solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
+func Position() string {
+    return "Blockchain Engineer"
+}
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=piatoss3612&layout=compact)](https://github.com/piatoss3612/github-readme-stats)
+func MyJourney() string {
+    return "Exploring the integration of blockchain in everyday life,
+            I dream of crafting a better world through the power of blockchain."
+}
+
+func Preferences() map[string]any {
+    return map[string]any{
+        "OS": "Windows",
+        "Editor": "VSCode",
+        "Language": []string{"Go", "Solidity", "Rust"},
+        "How To Learn": "Learn by building",
+        "Music": []string{"Rock", "City Pop", "Jazz"},
+        "Game": []string{"TCG", "Souls-like", "Metroidvania"},
+    }
+}
+
+func Contact() map[string]string {
+    return map[string]string{
+        "Email": "piatoss3612@gmail.com",
+        "LinkedIn": "https://www.linkedin.com/in/hyohwak-lee",
+        "X": "https://twitter.com/piatoss3612",
+    }
+}
+```
 
 ## ☕ My recent posts
 
-1. [[Damn Vulnerable DeFi] Backdoor](https://piatoss3612.tistory.com/148) 2024-03-02
-2. [[Damn Vulnerable DeFi] Free Rider](https://piatoss3612.tistory.com/147) 2024-03-01
-3. [[Damn Vulnerable DeFi] Puppet V2](https://piatoss3612.tistory.com/146) 2024-02-29
-4. [Damn Vulnerable DeFi Foundry V3 업데이트 작업](https://piatoss3612.tistory.com/149) 2024-02-28
-5. [[Damn Vulnerable DeFi] Puppet](https://piatoss3612.tistory.com/145) 2024-02-28
+1. [[EPF] Study Group 2주차 Execution Layer](https://piatoss3612.tistory.com/151) 2024-03-06
+2. [[EPF] Study Group 1주차 Protocol Intro](https://piatoss3612.tistory.com/150) 2024-03-04
+3. [[Damn Vulnerable DeFi] Backdoor](https://piatoss3612.tistory.com/148) 2024-03-02
+4. [[Damn Vulnerable DeFi] Free Rider](https://piatoss3612.tistory.com/147) 2024-03-01
+5. [[Damn Vulnerable DeFi] Puppet V2](https://piatoss3612.tistory.com/146) 2024-02-29
