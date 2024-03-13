@@ -7,47 +7,31 @@ func Name() string {
     return "Hyohwak Lee"
 }
 
-func Skills() []string {
-    return []string{
-        "Go", "Solidity", "Foundry",
-        "Docker", "Terraform", "Node.js",
-    }
+func Position() string {
+    return "Blockchain Engineer"
 }
 
-func Goals() []string {
-    return []string{
-        "Becoming a professional blockchain developer",
-        "Melting the blockchain into everyday life",
-        "Making the world a better place",
-    }
-}
-
-func Interests() []string {
-    return []string{
-        "Blockchain Core",
-        "Interoperability",
-        "Stablecoin",
-        "Cloud Native",
-    }
+func MyJourney() string {
+    return "Exploring the integration of blockchain in everyday life,
+            I dream of crafting a better world through the power of blockchain."
 }
 
 func Preferences() map[string]any {
     return map[string]any{
         "OS": "Windows",
         "Editor": "VSCode",
-        "Language": "Go",
+        "Language": []string{"Go", "Solidity", "Rust"},
         "How To Learn": "Learn by building",
-        "Music": []string{"Rock", "Jazz"},
-        "Game": []string{"Yu-Gi-Oh! Master Duel", "Souls-like Games"},
+        "Music": []string{"Rock", "City Pop", "Jazz"},
+        "Game": []string{"TCG", "Souls-like", "Metroidvania"},
     }
 }
 
-func PointOfContact() map[string]string {
+func Contact() map[string]string {
     return map[string]string{
-        "Email": "crewe1746@hanyang.ac.kr",
-        "LinkedIn": "https://www.linkedin.com/in/hyohwak-lee/",
+        "Email": "piatoss3612@gmail.com",
+        "LinkedIn": "https://www.linkedin.com/in/hyohwak-lee",
         "X": "https://twitter.com/piatoss3612",
-        "Discord": "piatoss3612",
     }
 }
 ```
