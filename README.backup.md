@@ -8,7 +8,7 @@ func Name() string {
 }
 
 func Position() string {
-    return "Blockchain Engineer"
+    return "Full-Stack Developer"
 }
 
 func MyJourney() string {
@@ -20,7 +20,7 @@ func Preferences() map[string]any {
     return map[string]any{
         "OS": "Windows",
         "Editor": "VSCode",
-        "Language": []string{"Go", "Solidity", "Rust"},
+        "Language": []string{"Go", "Solidity", "TypeScript"},
         "How To Learn": "Learn by building",
         "Music": []string{"Rock", "City Pop", "Jazz"},
         "Game": []string{"TCG", "Souls-like", "Metroidvania"},
