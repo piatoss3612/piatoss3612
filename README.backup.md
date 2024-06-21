@@ -26,14 +26,16 @@ func Preferences() map[string]any {
         "Game": []string{"TCG", "Souls-like", "Metroidvania"},
     }
 }
-
-func Contact() map[string]string {
-    return map[string]string{
-        "Email": "piatoss3612@gmail.com",
-        "LinkedIn": "https://www.linkedin.com/in/hyohwak-lee",
-        "X": "https://twitter.com/piatoss3612",
-    }
-}
 ```
+
+## 📱Point of Contact
+
+[<img alt="Mail" width="60px" src="https://img.icons8.com/?size=100&id=OumT4lIcOllS&format=png&color=000000" />][mail]
+[<img alt="Blog" width="60px" src="https://img.icons8.com/?size=100&id=GsMdC9NCKCAD&format=png&color=000000"/>][blog]
+[<img alt="LinkedIn" width="60px" src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" />][linkedin]
+
+[mail]: mailto:piatoss3612@gmail.com
+[blog]: https://piatoss3612.tistory.com/
+[linkedin]: https://www.linkedin.com/in/hyohwak-lee
 
 {{RECENT_POSTS}}
