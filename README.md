@@ -18,11 +18,9 @@ func MyJourney() string {
 
 func Preferences() map[string]any {
     return map[string]any{
-        "Editor": "VSCode",
         "Language": []string{"Go", "Solidity", "TypeScript"},
         "How To Learn": "Learn by building",
-        "Music": []string{"Rock", "City Pop", "Jazz"},
-        "Game": []string{"TCG", "Souls-like", "Metroidvania"},
+        "Most Favorite Song": "Oasis - All Around The World",
     }
 }
 ```
