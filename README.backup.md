@@ -18,7 +18,6 @@ func MyJourney() string {
 
 func Preferences() map[string]any {
     return map[string]any{
-        "OS": "Windows",
         "Editor": "VSCode",
         "Language": []string{"Go", "Solidity", "TypeScript"},
         "How To Learn": "Learn by building",
