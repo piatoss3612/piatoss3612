@@ -40,8 +40,8 @@ func Preferences() map[string]any {
 
 ## ☕ My recent posts
 
-1. [생애 첫 커피챗 짧은 회고](https://piatoss3612.tistory.com/173) 2024-06-20
-2. [블로그 운영에 대한 고찰](https://piatoss3612.tistory.com/172) 2024-06-14
-3. [나의 개발 연대기 1](https://piatoss3612.tistory.com/171) 2024-06-13
-4. [[zkSync] 1. Privy와 zkSync 네트워크를 사용한 소셜 로그인](https://piatoss3612.tistory.com/170) 2024-06-11
-5. [[Ethernaut] 31. Stake](https://piatoss3612.tistory.com/169) 2024-06-05
+1. [Chainlink Block Magic 해커톤 후기 1](https://piatoss3612.tistory.com/174) 2024-06-23
+2. [생애 첫 커피챗 짧은 회고](https://piatoss3612.tistory.com/173) 2024-06-20
+3. [블로그 운영에 대한 고찰](https://piatoss3612.tistory.com/172) 2024-06-14
+4. [나의 개발 연대기 1](https://piatoss3612.tistory.com/171) 2024-06-13
+5. [[zkSync] 1. Privy와 zkSync 네트워크를 사용한 소셜 로그인](https://piatoss3612.tistory.com/170) 2024-06-11
