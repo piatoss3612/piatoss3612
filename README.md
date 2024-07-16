@@ -37,8 +37,8 @@ func Preferences() map[string]any {
 
 ## ☕ My recent posts
 
-1. [대면 면접 회고](https://piatoss3612.tistory.com/178) 2024-07-11
-2. [전화 면접 회고](https://piatoss3612.tistory.com/177) 2024-07-04
-3. [Ethernaut 문제 풀이 및 키워드 정리](https://piatoss3612.tistory.com/176) 2024-06-27
-4. [[Ethernaut] 30. HigherOrder](https://piatoss3612.tistory.com/175) 2024-06-27
-5. [생애 첫 커피챗 짧은 회고](https://piatoss3612.tistory.com/173) 2024-06-20
+1. [[백준 / Go] 18428번: 감시 피하기](https://piatoss3612.tistory.com/179) 2024-07-15
+2. [대면 면접 회고](https://piatoss3612.tistory.com/178) 2024-07-11
+3. [전화 면접 회고](https://piatoss3612.tistory.com/177) 2024-07-04
+4. [Ethernaut 문제 풀이 및 키워드 정리](https://piatoss3612.tistory.com/176) 2024-06-27
+5. [[Ethernaut] 30. HigherOrder](https://piatoss3612.tistory.com/175) 2024-06-27
