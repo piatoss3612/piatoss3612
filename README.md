@@ -37,8 +37,8 @@ func Preferences() map[string]any {
 
 ## ☕ My recent posts
 
-1. [테스트 주도 개발 입문 - 테스트 주도 개발이란?](https://piatoss3612.tistory.com/181) 2024-07-16
-2. [[PS / Go] 백준 11729 번 하노이 탑 이동 순서, 프로그래머스 타겟 넘버](https://piatoss3612.tistory.com/180) 2024-07-16
-3. [[백준 / Go] 18428번: 감시 피하기](https://piatoss3612.tistory.com/179) 2024-07-15
-4. [대면 면접 회고](https://piatoss3612.tistory.com/178) 2024-07-11
-5. [전화 면접 회고](https://piatoss3612.tistory.com/177) 2024-07-04
+1. [테스트 주도 개발 입문 - 시작하기](https://piatoss3612.tistory.com/182) 2024-07-17
+2. [테스트 주도 개발 입문 - 테스트 주도 개발이란?](https://piatoss3612.tistory.com/181) 2024-07-16
+3. [[PS / Go] 백준 11729 번 하노이 탑 이동 순서, 프로그래머스 타겟 넘버](https://piatoss3612.tistory.com/180) 2024-07-16
+4. [[백준 / Go] 18428번: 감시 피하기](https://piatoss3612.tistory.com/179) 2024-07-15
+5. [대면 면접 회고](https://piatoss3612.tistory.com/178) 2024-07-11
