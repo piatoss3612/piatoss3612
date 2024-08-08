@@ -37,8 +37,8 @@ func Preferences() map[string]any {
 
 ## ☕ My recent posts
 
-1. [Next.js App Router + RainbowKit + SIWE + NextAuth.js를 사용해 지갑으로 로그인하는 기능 구현하기](https://piatoss3612.tistory.com/184) 2024-07-31
-2. [오늘의 기묘한 모험](https://piatoss3612.tistory.com/183) 2024-07-26
-3. [테스트 주도 개발 입문 - 시작하기](https://piatoss3612.tistory.com/182) 2024-07-17
-4. [테스트 주도 개발 입문 - 테스트 주도 개발이란?](https://piatoss3612.tistory.com/181) 2024-07-16
-5. [[PS / Go] 백준 11729 번 하노이 탑 이동 순서, 프로그래머스 타겟 넘버](https://piatoss3612.tistory.com/180) 2024-07-16
+1. [2024년 7월 회고 - 내가 웃을 수 있는 이유](https://piatoss3612.tistory.com/186) 2024-08-07
+2. [Web3OJ 문제 풀이를 위한 Foundry 템플릿](https://piatoss3612.tistory.com/185) 2024-08-07
+3. [Next.js App Router + RainbowKit + SIWE + NextAuth.js를 사용해 지갑으로 로그인하는 기능 구현하기](https://piatoss3612.tistory.com/184) 2024-07-31
+4. [오늘의 기묘한 모험](https://piatoss3612.tistory.com/183) 2024-07-26
+5. [테스트 주도 개발 입문 - 시작하기](https://piatoss3612.tistory.com/182) 2024-07-17
