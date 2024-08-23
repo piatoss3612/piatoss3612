@@ -15,14 +15,6 @@ func MyJourney() string {
     return "Exploring the integration of blockchain in everyday life,
             I dream of crafting a better world through the power of blockchain."
 }
-
-func Preferences() map[string]any {
-    return map[string]any{
-        "Language": []string{"Go", "Solidity", "TypeScript"},
-        "How To Learn": "Learn by building",
-        "Most Favorite Song": "Oasis - All Around The World",
-    }
-}
 ```
 
 ## 📱Point of Contact
@@ -30,11 +22,9 @@ func Preferences() map[string]any {
 [<img alt="Mail" width="60px" src="https://img.icons8.com/?size=100&id=OumT4lIcOllS&format=png&color=000000" />][mail]
 [<img alt="Blog" width="60px" src="https://img.icons8.com/?size=100&id=GsMdC9NCKCAD&format=png&color=000000"/>][blog]
 [<img alt="LinkedIn" width="60px" src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" />][linkedin]
-[<img alt="ENS" width="60px" src="https://img.icons8.com/?size=100&id=KirlA3wOLyXa&format=png&color=000000" />][ens]
 
 [mail]: mailto:piatoss3612@gmail.com
 [blog]: https://piatoss3612.tistory.com/
 [linkedin]: https://www.linkedin.com/in/hyohwak-lee
-[ens]: https://app.ens.domains/piatoss.eth
 
 {{RECENT_POSTS}}
