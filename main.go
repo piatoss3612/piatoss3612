@@ -12,7 +12,7 @@ import (
 	"github.com/mmcdole/gofeed"
 )
 
-const MAX_COUNT = 5 // 최근 포스트의 최대 개수
+const MAX_COUNT = 3 // 최근 포스트의 최대 개수
 
 func main() {
 	ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
