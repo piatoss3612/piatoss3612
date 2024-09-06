@@ -13,7 +13,7 @@ func Position() string {
 
 func MyJourney() string {
     return "Exploring the integration of blockchain in everyday life,
-            I dream of crafting a better world through the power of blockchain."
+            crafting a better world with the power of blockchain"
 }
 ```
 
