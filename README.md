@@ -29,6 +29,6 @@ func MyJourney() string {
 
 ## ☕ My recent posts
 
-1. [라이브 코딩 면접 회고](https://piatoss3612.tistory.com/188) 2024-08-23
-2. [EIP-7212 알아보기: secp256r1 곡선을 지원하기 위한 프리컴파일과 ZKsync에서의 구현](https://piatoss3612.tistory.com/187) 2024-08-10
-3. [2024년 7월 회고 - 내가 웃을 수 있는 이유](https://piatoss3612.tistory.com/186) 2024-08-07
+1. [[Solidity] 함수 시그니처를 사용해 동적으로 데이터를 인코딩하는 폼 만들기](https://piatoss3612.tistory.com/189) 2024-09-06
+2. [라이브 코딩 면접 회고](https://piatoss3612.tistory.com/188) 2024-08-23
+3. [EIP-7212 알아보기: secp256r1 곡선을 지원하기 위한 프리컴파일과 ZKsync에서의 구현](https://piatoss3612.tistory.com/187) 2024-08-10
