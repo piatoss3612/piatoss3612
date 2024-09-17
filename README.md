@@ -1,19 +1,19 @@
 ## 🐹 About me
 
 ```go
-package piatoss
+package rowan
 
 func Name() string {
-    return "Hyohwak Lee"
+    return "Lee Hyohwak"
 }
 
 func Position() string {
-    return "Full Stack Developer"
+    return "Frontend Developer"
 }
 
 func MyJourney() string {
-    return "Exploring the integration of blockchain in everyday life,
-            crafting a better world with the power of blockchain"
+    return `Exploring the integration of blockchain in everyday life,
+            crafting a better world with the power of blockchain`
 }
 ```
 
