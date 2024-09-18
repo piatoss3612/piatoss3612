@@ -8,7 +8,7 @@ func Name() string {
 }
 
 func Position() string {
-    return "Frontend Developer"
+    return "Frontend Engineer"
 }
 
 func MyJourney() string {
