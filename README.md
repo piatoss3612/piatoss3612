@@ -29,6 +29,6 @@ func MyJourney() string {
 
 ## ☕ My recent posts
 
-1. [인생 정상화(취업) 일주일차 후기](https://piatoss3612.tistory.com/192) 2024-09-16
-2. [React에서 텍스트 오버플로우 감지 및 스크롤 애니메이션 구현하기](https://piatoss3612.tistory.com/191) 2024-09-15
-3. [Yarn을 사용한 모노레포에서 cannot find module 문제 해결하기](https://piatoss3612.tistory.com/190) 2024-09-11
+1. [Transient Storage 이해하기](https://piatoss3612.tistory.com/168) 2024-10-13
+2. [인생 정상화(취업) 일주일차 후기](https://piatoss3612.tistory.com/192) 2024-09-16
+3. [React에서 텍스트 오버플로우 감지 및 스크롤 애니메이션 구현하기](https://piatoss3612.tistory.com/191) 2024-09-15
