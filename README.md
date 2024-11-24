@@ -29,6 +29,6 @@ func MyJourney() string {
 
 ## ☕ My recent posts
 
-1. [취업 두 달 차의 기록](https://piatoss3612.tistory.com/194) 2024-11-09
-2. [취업 한 달 차의 기록](https://piatoss3612.tistory.com/193) 2024-10-20
-3. [Transient Storage 이해하기](https://piatoss3612.tistory.com/168) 2024-10-13
+1. [[Ethernaut] 32. Impersonator](https://piatoss3612.tistory.com/195) 2024-11-23
+2. [취업 두 달 차의 기록](https://piatoss3612.tistory.com/194) 2024-11-09
+3. [취업 한 달 차의 기록](https://piatoss3612.tistory.com/193) 2024-10-20
