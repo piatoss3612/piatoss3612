@@ -26,9 +26,3 @@ func MyJourney() string {
 [mail]: mailto:piatoss3612@gmail.com
 [blog]: https://piatoss3612.tistory.com/
 [linkedin]: https://www.linkedin.com/in/hyohwak-lee
-
-## ☕ My recent posts
-
-1. [[Ethernaut] 32. Impersonator](https://piatoss3612.tistory.com/195) 2024-11-23
-2. [취업 두 달 차의 기록](https://piatoss3612.tistory.com/194) 2024-11-09
-3. [취업 한 달 차의 기록](https://piatoss3612.tistory.com/193) 2024-10-20
