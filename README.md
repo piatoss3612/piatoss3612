@@ -1,4 +1,4 @@
-## 🐹 About me
+## 🐹 Hi, I'm Rowan
 
 ```go
 package rowan
@@ -7,12 +7,20 @@ func Name() string {
     return "Lee Hyohwak"
 }
 
-func Position() string {
-    return "Frontend Engineer"
+func Intro() string {
+    return `Specializing in crypto wallet development and blockchain UX,
+            making Web3 technology more accessible and user-friendly for everyone.`
 }
 
-func MyJourney() string {
-    return `Exploring the integration of blockchain in everyday life,
-            crafting a better world with the power of blockchain`
+func Experience() []string {
+    return []string{
+        "Keplr (September 2024 – Present, Frontend Engineer)",
+    }
+}
+
+func Skills() []string {
+    return []string{
+        "Typescript", "Next.js", "Solidity",
+    }
 }
 ```
