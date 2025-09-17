@@ -1,28 +1,18 @@
-## 🐹 Hi, I'm Rowan
+<div align="center">
 
-```solidity
-pragma solidity ^0.8.29;
+# 🌱 Hi, I'm Rowan
 
-contract Rowan {
-    function introduction() public pure returns (string memory) {
-        return
-            string.concat(
-                "Specializing in crypto wallet development and blockchain UX, ",
-                "making Web3 technology more accessible and user-friendly for everyone."
-            );
-    }
+<img src="assets/it_is_dangerous_to_go_alone.webp" alt="It's dangerous to go alone!" width="280"/>
 
-    function experience() public pure returns (string[1] memory) {
-        return ["Keplr, September 2024 to Present, Frontend Engineer"];
-    }
+<br>
+<br>
 
-    function skills() public pure returns (string[3] memory) {
-        return ["Typescript", "Next.js", "Solidity"];
-    }
+**Frontend Engineer at [Keplr](https://keplr.app)** specializing in crypto wallet development and Web3 UX.
 
-    function handle() public pure returns (string memory) {
-        return "@piatoss3612";
-    }
-}
+Making Web3 safer and more accessible for everyone.
 
-```
+---
+
+**Let's build a safer Web3 together! ⚔️**
+
+</div>
