@@ -11,8 +11,4 @@
 
 Making Web3 safer and more accessible for everyone.
 
----
-
-**Let's build a safer Web3 together! ⚔️**
-
 </div>
