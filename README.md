@@ -7,7 +7,7 @@
 <br>
 <br>
 
-**Frontend Engineer at [Keplr](https://keplr.app)** specializing in crypto wallet development and Web3 UX.
+**Product Engineer at [Keplr](https://keplr.app)** specializing in crypto wallet development and Web3 UX.
 
 Making Web3 safer and more accessible for everyone.
 
