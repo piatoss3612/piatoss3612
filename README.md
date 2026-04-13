@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌱 Hi, I'm Rowan
+# 🛡️ Hi, I'm Rowan
 
 <img src="assets/it_is_dangerous_to_go_alone.webp" alt="It's dangerous to go alone!" width="280"/>
 
@@ -9,6 +9,6 @@
 
 **Product Engineer at [Keplr](https://keplr.app)** specializing in crypto wallet development and Web3 UX.
 
-Making Web3 safer and more accessible for everyone.
+Privacy is normal. Building for it.
 
 </div>
