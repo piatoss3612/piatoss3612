@@ -2,13 +2,12 @@
 
 # 🛡️ Hi, I'm Rowan
 
-<img src="assets/it_is_dangerous_to_go_alone.webp" alt="It's dangerous to go alone!" width="280"/>
+<img src="assets/profile-cat.gif" alt="Animated Wanrochi PixelCat in a retro item shop: It is dangerous to go alone. Take one or both." width="560"/>
 
 <br>
 <br>
 
-**Product Engineer at [Keplr](https://keplr.app)** specializing in crypto wallet development and Web3 UX.
-
-Privacy is normal. Building for it.
+**Product Engineer at [Keplr](https://keplr.app)**  
+Wallets, Zcash, and strange little interfaces.
 
 </div>
