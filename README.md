@@ -4,9 +4,6 @@
 
 <img src="assets/profile-cat.gif" alt="Animated Wanrochi PixelCat in a retro item shop: It is dangerous to go alone. Take one or both." width="560"/>
 
-<br>
-<br>
-
 **Product Engineer at [Keplr](https://keplr.app)**  
 Wallets, Zcash, and strange little interfaces.
 
