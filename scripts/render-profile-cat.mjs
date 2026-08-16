@@ -13,6 +13,10 @@ const width = 720;
 const height = 380;
 const frames = 72;
 const delay = 7;
+const introFrames = 5;
+const typingFrames = 32;
+const payoffStartFrame = introFrames + typingFrames;
+const payoffFrames = 6;
 const line1 = "IT IS DANGEROUS TO GO ALONE.";
 const line2 = "TAKE ONE OR... BOTH!";
 const typedText = `${line1}\n${line2}`;
@@ -55,8 +59,6 @@ const palette = {
 };
 
 const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
-const wave = (frame, phase = 0, scale = 1) =>
-  Math.sin(((frame + phase) / frames) * Math.PI * 2) * scale;
 
 function frame(rows) {
   if (rows.length !== 20 || rows.some((row) => row.length !== 20)) {
@@ -216,11 +218,38 @@ const VIZOR_ICON = [
   "pppppppppppppppp",
 ];
 
+const PIXEL_FONT = {
+  " ": ["00000", "00000", "00000", "00000", "00000", "00000", "00000"],
+  "!": ["00100", "00100", "00100", "00100", "00100", "00000", "00100"],
+  ".": ["00000", "00000", "00000", "00000", "00000", "00000", "00100"],
+  ">": ["10000", "01000", "00100", "00010", "00100", "01000", "10000"],
+  A: ["01110", "10001", "10001", "11111", "10001", "10001", "10001"],
+  B: ["11110", "10001", "10001", "11110", "10001", "10001", "11110"],
+  D: ["11110", "10001", "10001", "10001", "10001", "10001", "11110"],
+  E: ["11111", "10000", "10000", "11110", "10000", "10000", "11111"],
+  G: ["01110", "10001", "10000", "10111", "10001", "10001", "01110"],
+  H: ["10001", "10001", "10001", "11111", "10001", "10001", "10001"],
+  I: ["11111", "00100", "00100", "00100", "00100", "00100", "11111"],
+  K: ["10001", "10010", "10100", "11000", "10100", "10010", "10001"],
+  L: ["10000", "10000", "10000", "10000", "10000", "10000", "11111"],
+  N: ["10001", "11001", "10101", "10011", "10001", "10001", "10001"],
+  O: ["01110", "10001", "10001", "10001", "10001", "10001", "01110"],
+  R: ["11110", "10001", "10001", "11110", "10100", "10010", "10001"],
+  S: ["01111", "10000", "10000", "01110", "00001", "00001", "11110"],
+  T: ["11111", "00100", "00100", "00100", "00100", "00100", "00100"],
+  U: ["10001", "10001", "10001", "10001", "10001", "10001", "01110"],
+};
+
+const textScale = 3;
+const textAdvance = 6 * textScale;
+
 function visibleText(frameNumber) {
-  const hold = 18;
-  const typingFrames = frames - hold;
+  if (frameNumber < introFrames) return "";
+
   const typed = clamp(
-    Math.floor((frameNumber / typingFrames) * (typedText.length + 3)),
+    Math.floor(
+      ((frameNumber - introFrames + 1) / typingFrames) * typedText.length,
+    ),
     0,
     typedText.length,
   );
@@ -233,19 +262,23 @@ function textLines(text) {
 }
 
 function cursorPosition(first, second) {
-  const charWidth = 10.6;
   if (first.length < line1.length) {
-    return { x: 116 + first.length * charWidth, y: 304 };
+    return { x: 116 + first.length * textAdvance, y: 283 };
   }
 
-  return { x: 116 + second.length * charWidth, y: 329 };
+  return { x: 116 + second.length * textAdvance, y: 313 };
 }
 
 function spriteForFrame(frameNumber) {
-  if (frameNumber > frames - 9) return SPARKLE;
+  if (frameNumber >= payoffStartFrame) return SPARKLE;
   if (frameNumber % 31 === 12) return BLINK;
-  if (frameNumber < 17) return [IDLE, TAIL_R, IDLE, TAIL_L][Math.floor(frameNumber / 4) % 4];
-  return [WORK_L, WORK_R, WORK_BOTH, WORK_R][frameNumber % 4];
+  if (frameNumber < introFrames) {
+    return [IDLE, TAIL_R][Math.floor(frameNumber / 3) % 2];
+  }
+
+  return [WORK_L, WORK_R, WORK_BOTH, WORK_R][
+    Math.floor((frameNumber - introFrames) / 3) % 4
+  ];
 }
 
 function renderSprite(sprite, x, y, scale) {
@@ -262,36 +295,95 @@ function renderSprite(sprite, x, y, scale) {
   return rects.join("\n");
 }
 
+function renderPixelText(text, x, y, color) {
+  const rects = [];
+
+  for (let characterIndex = 0; characterIndex < text.length; characterIndex += 1) {
+    const character = text[characterIndex];
+    const glyph = PIXEL_FONT[character];
+    if (!glyph) throw new Error(`Missing pixel-font glyph: ${character}`);
+
+    for (let row = 0; row < glyph.length; row += 1) {
+      for (let col = 0; col < glyph[row].length; col += 1) {
+        if (glyph[row][col] !== "1") continue;
+        rects.push(
+          `<rect x="${x + characterIndex * textAdvance + col * textScale}" y="${y + row * textScale}" width="${textScale}" height="${textScale}" fill="${color}"/>`,
+        );
+      }
+    }
+  }
+
+  return rects.join("\n");
+}
+
+function payoffOffset(frameNumber) {
+  const payoffFrame = frameNumber - payoffStartFrame;
+  if (payoffFrame < 0 || payoffFrame >= payoffFrames) return 0;
+  return [0, -2, -4, -4, -2, 0][payoffFrame];
+}
+
 function svg(frameNumber) {
   const typed = visibleText(frameNumber);
   const [first, second] = textLines(typed);
   const cursor = cursorPosition(first, second);
   const cursorOn = frameNumber % 12 < 7;
-  const bob = wave(frameNumber, 0, 4);
   const sprite = spriteForFrame(frameNumber);
   const spriteX = 290;
-  const spriteY = 70 + bob;
+  const spriteY = 70;
   const spriteScale = 7;
-  const itemBob = wave(frameNumber, 11, 1.25);
-  const keplrY = 92 - itemBob;
-  const vizorY = 92 + itemBob;
+  const itemOffset = payoffOffset(frameNumber);
+  const keplrY = 92 + itemOffset;
+  const vizorY = 92 + itemOffset;
   const flameOuter = frameNumber % 14 < 7 ? "#ffcc44" : "#e8a050";
   const flameInner = frameNumber % 14 < 7 ? "#fffaf2" : "#ffcc44";
 
   return `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">
-  <rect width="${width}" height="${height}" fill="#0f0b1a"/>
-  <rect x="28" y="28" width="664" height="324" rx="0" fill="#171126" stroke="#ffcc44" stroke-width="4"/>
+  <rect width="${width}" height="${height}" fill="#0b0813"/>
+  <rect x="28" y="28" width="664" height="324" rx="0" fill="#171126" stroke="#2e2145" stroke-width="4"/>
   <rect x="40" y="40" width="640" height="300" rx="0" fill="#211832" stroke="#1a1530" stroke-width="4"/>
 
   <g shape-rendering="crispEdges">
-    ${Array.from({ length: 9 }, (_, i) => `<rect x="${52 + i * 72}" y="54" width="36" height="8" fill="${i % 2 ? "#2e2145" : "#3a2850"}"/>`).join("\n")}
-    ${Array.from({ length: 8 }, (_, i) => `<rect x="${88 + i * 72}" y="74" width="36" height="8" fill="${i % 2 ? "#3a2850" : "#2e2145"}"/>`).join("\n")}
-    ${Array.from({ length: 7 }, (_, i) => `<rect x="${64 + i * 86}" y="102" width="42" height="8" fill="${i % 2 ? "#241a38" : "#35254c"}"/>`).join("\n")}
-    <rect x="54" y="194" width="612" height="14" fill="#171126"/>
-    <rect x="72" y="214" width="576" height="10" fill="#ffcc44"/>
-    <rect x="72" y="224" width="576" height="14" fill="#5a3d8a"/>
+    <rect x="40" y="40" width="640" height="12" fill="#171126"/>
+    <rect x="40" y="52" width="16" height="188" fill="#1a1328"/>
+    <rect x="664" y="52" width="16" height="188" fill="#1a1328"/>
+    ${[0, 1, 2, 6, 7, 8].map((i) => `<rect x="${52 + i * 72}" y="58" width="36" height="6" fill="${i % 2 ? "#281d3d" : "#2e2145"}"/>`).join("\n")}
+    ${[0, 1, 6, 7].map((i) => `<rect x="${88 + i * 72}" y="82" width="36" height="6" fill="${i % 2 ? "#2e2145" : "#281d3d"}"/>`).join("\n")}
+    ${[0, 1, 5, 6].map((i) => `<rect x="${64 + i * 86}" y="112" width="42" height="6" fill="${i % 2 ? "#251b38" : "#2b1f40"}"/>`).join("\n")}
+
+    <rect x="294" y="52" width="132" height="8" fill="#2e2145"/>
+    <rect x="286" y="60" width="148" height="8" fill="#2e2145"/>
+    <rect x="278" y="68" width="164" height="8" fill="#2e2145"/>
+    <rect x="270" y="76" width="180" height="128" fill="#2e2145"/>
+    <rect x="302" y="60" width="116" height="8" fill="#171126"/>
+    <rect x="294" y="68" width="132" height="8" fill="#171126"/>
+    <rect x="286" y="76" width="148" height="8" fill="#171126"/>
+    <rect x="278" y="84" width="164" height="120" fill="#171126"/>
+
+    <rect x="84" y="60" width="40" height="8" fill="#2b1d32"/>
+    <rect x="76" y="68" width="56" height="40" fill="#2b1d32"/>
+    <rect x="84" y="108" width="40" height="8" fill="#2b1d32"/>
+    <rect x="92" y="68" width="24" height="8" fill="#3a2231"/>
+    <rect x="84" y="76" width="40" height="24" fill="#3a2231"/>
+    <rect x="92" y="100" width="24" height="8" fill="#3a2231"/>
+    <rect x="596" y="60" width="40" height="8" fill="#2b1d32"/>
+    <rect x="588" y="68" width="56" height="40" fill="#2b1d32"/>
+    <rect x="596" y="108" width="40" height="8" fill="#2b1d32"/>
+    <rect x="604" y="68" width="24" height="8" fill="#3a2231"/>
+    <rect x="596" y="76" width="40" height="24" fill="#3a2231"/>
+    <rect x="604" y="100" width="24" height="8" fill="#3a2231"/>
+
+    <rect x="136" y="82" width="142" height="108" fill="#18243b"/>
+    <rect x="144" y="90" width="126" height="92" fill="#0f0b1a"/>
+    <rect x="476" y="82" width="142" height="108" fill="#351827"/>
+    <rect x="484" y="90" width="126" height="92" fill="#0f0b1a"/>
+
+    <rect x="54" y="198" width="612" height="10" fill="#171126"/>
+    <rect x="72" y="214" width="576" height="6" fill="#f0c888"/>
+    <rect x="72" y="220" width="576" height="18" fill="#4b3048"/>
+    <rect x="88" y="220" width="544" height="6" fill="#6a3f50"/>
     <rect x="72" y="238" width="576" height="10" fill="#1a1530"/>
+    <rect x="338" y="220" width="100" height="8" fill="#171126"/>
     <rect x="92" y="90" width="24" height="34" fill="#3a2850"/>
     <rect x="98" y="102" width="12" height="46" fill="#40305a"/>
     <rect x="92" y="84" width="24" height="14" fill="${flameOuter}"/>
@@ -300,16 +392,14 @@ function svg(frameNumber) {
     <rect x="610" y="102" width="12" height="46" fill="#40305a"/>
     <rect x="604" y="84" width="24" height="14" fill="${flameOuter}"/>
     <rect x="612" y="76" width="8" height="16" fill="${flameInner}"/>
-    <rect x="144" y="90" width="126" height="92" fill="#0f0b1a"/>
-    <rect x="148" y="94" width="118" height="86" fill="#171126" stroke="#ffcc44" stroke-width="4"/>
+    <rect x="148" y="94" width="118" height="86" fill="#171126" stroke="#1d4c72" stroke-width="4"/>
     <rect x="158" y="104" width="98" height="66" fill="#162033"/>
     <rect x="170" y="116" width="74" height="42" fill="#13364f"/>
     <rect x="184" y="126" width="46" height="22" fill="#1d4c72"/>
     <rect x="166" y="176" width="82" height="12" fill="#e8a050"/>
     <rect x="154" y="188" width="106" height="12" fill="#1a1530"/>
     <rect x="178" y="188" width="58" height="22" fill="#5a3d8a"/>
-    <rect x="484" y="90" width="126" height="92" fill="#0f0b1a"/>
-    <rect x="488" y="94" width="118" height="86" fill="#171126" stroke="#ffcc44" stroke-width="4"/>
+    <rect x="488" y="94" width="118" height="86" fill="#171126" stroke="#6f1f32" stroke-width="4"/>
     <rect x="498" y="104" width="98" height="66" fill="#3a1324"/>
     <rect x="506" y="112" width="82" height="50" fill="#6f1f32"/>
     <rect x="514" y="120" width="66" height="34" fill="#a8384c"/>
@@ -333,11 +423,13 @@ ${renderSprite(sprite, spriteX, spriteY, spriteScale)}
   </g>
 
   <rect x="74" y="264" width="572" height="84" rx="0" fill="#0f0b1a"/>
-  <rect x="80" y="270" width="560" height="72" rx="0" fill="#211832" stroke="#ffcc44" stroke-width="4"/>
-  <text x="98" y="304" fill="#ffcc44" font-size="18" font-family="Menlo, Monaco, Consolas, monospace" font-weight="700">&gt;</text>
-  <text x="116" y="304" fill="#fffaf2" font-size="17" font-family="Menlo, Monaco, Consolas, monospace" font-weight="700">${first}</text>
-  <text x="116" y="329" fill="#fffaf2" font-size="17" font-family="Menlo, Monaco, Consolas, monospace" font-weight="700">${second}</text>
-  ${cursorOn ? `<rect x="${cursor.x.toFixed(1)}" y="${cursor.y - 17}" width="9" height="20" fill="#fffaf2"/>` : ""}
+  <rect x="80" y="270" width="560" height="72" rx="0" fill="#211832" stroke="#3a2850" stroke-width="4"/>
+  <g shape-rendering="crispEdges">
+    ${renderPixelText(">", 92, 283, "#ffcc44")}
+    ${renderPixelText(first, 116, 283, "#fffaf2")}
+    ${renderPixelText(second, 116, 313, "#fffaf2")}
+    ${cursorOn ? `<rect x="${cursor.x + 3}" y="${cursor.y + 18}" width="12" height="3" fill="#fffaf2"/>` : ""}
+  </g>
 </svg>`;
 }
 
